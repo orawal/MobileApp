@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SmartMarket</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_settings">asd</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="membership_card_button">View/ Edit Membership Card</string>
+    <string name="add_coupon_button">Add Coupon</string>
+    <string name="membership_card_label">Fast Access to \n your membership card \n whenever you shop</string>
+</resources>
