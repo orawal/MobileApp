@@ -4,7 +4,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.smartmarket.View.DealsFragment;
 import com.example.smartmarket.View.HomeFragment;
 import com.example.smartmarket.View.NavigationFragment;
 import com.example.smartmarket.View.ProfileFragment;
@@ -34,9 +33,6 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
                 ShoppingListFragment shoppingListFragment = new ShoppingListFragment();
                 return shoppingListFragment;
             case 3:
-                DealsFragment dealsFragment = new DealsFragment();
-                return dealsFragment;
-            case 4:
                 ProfileFragment profileFragment = new ProfileFragment();
                 return profileFragment;
             default:

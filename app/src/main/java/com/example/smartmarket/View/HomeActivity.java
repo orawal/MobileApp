@@ -43,7 +43,6 @@ public class HomeActivity extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Home"));
         tabLayout.addTab(tabLayout.newTab().setText("Navigation"));
         tabLayout.addTab(tabLayout.newTab().setText("Shopping List"));
-        tabLayout.addTab(tabLayout.newTab().setText("Deals"));
         tabLayout.addTab(tabLayout.newTab().setText("Me"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
@@ -81,7 +80,8 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void addDrawerItems() {
-        String[] categoryArray = { "Tea and Coffee", "Dairy", "Bread", "Ice cream", "Bakey" };
+        String[] categoryArray = { "All", "Books", "Electronics", "Gourment Food",
+                "Apparel"};
         mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, categoryArray);
         mDrawerList.setAdapter(mAdapter);
 
